@@ -113,7 +113,7 @@ const Field = ({ label, error, children }) => (
 );
 
 const inp = (error) =>
-  `w-full px-3.5 py-2.5 rounded-xl border text-sm text-white transition-all outline-none bg-white/[0.04] placeholder-gray-600 focus:ring-1 ${
+  `w-full px-3.5 py-2.5 rounded-xl border text-sm text-white transition-all outline-none bg-white/[0.04] placeholder-gray-600 focus:ring-1 [color-scheme:dark] ${
     error
       ? 'border-red-500/40 focus:border-red-500/60 focus:ring-red-500/20'
       : 'border-white/[0.08] focus:border-white/20 focus:bg-white/[0.06] focus:ring-white/10'
